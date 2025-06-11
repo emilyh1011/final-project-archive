@@ -1,0 +1,14 @@
+{
+    "name": "Express + React Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "hostRequirements": {
+        "cpus": 4
+    },
+    "postAttachCommand": {
+        "server": "/bin/sh run.sh"
+    },
+    "remoteEnv": {
+        "PORT": "${PORT}",
+        "DSN": "${DSN}"
+    }
+}

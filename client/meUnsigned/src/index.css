@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); 
+
+@theme {
+  --color-lightestblue: #BFEAFF;
+  --color-lightblue: #86CEFA;
+  --color-mediumblue:#73B9EE;
+  --color-pink:#FFC6FF;
+  --color-red:#FFADAD;
+  --color-orange:#FFD6A5;
+  --color-yellow:#FDFFB6;
+  --color-green:#CAFFBF;
+  --color-blue:#A0C4FF;
+  --color-purple:#BDB2FF;
+  --font-merriweather: "Merriweather";
+  
+}
+
+
+
